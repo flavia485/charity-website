@@ -1,0 +1,202 @@
+
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #080707;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color:  #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color:  #e61700;
+}
+
+.button-donate {
+  background-color: #e61700;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button-donate:hover {
+  background-color: #1300e6;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/children-of-uganda-2245270_1280.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.hero-content {
+  text-align: center;
+  color: #b1e9c8;
+}
+
+.view-services-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:  #e61700;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.view-services-btn:hover {
+  background-color:  #050505;
+}
+
+.footer {
+  background-color: #0a0a0a;
+  color: #e61700;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+.about-section {
+  background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/children-205219_1280.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #b1e9c8;
+}
+
+
+.about-content {
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6); 
+  border-radius: 10px;
+}
+
+
+.events-section {
+  background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/uganda-4288793_1280\ \(1\).jpg);
+  background-size: cover;
+  padding: 50px 0; 
+  text-align: center;
+  color: #b1e9c8;
+}
+
+.event {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+.contact-section {
+  background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/nn.jpg);
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+  color: #b1e9c8;
+}
+
+
+.contact-info,
+.contact-form {
+  background-color: rgba(0, 0, 0, 0.8); 
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button.button-submit {
+  background-color:  #e61700;
+  color: #b1e9c8;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button.button-submit:hover {
+  background-color: #e61700;
+}
+
+@media (max-width: 768px) {
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form button.button-submit {
+    padding: 8px 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
