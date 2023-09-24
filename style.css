@@ -15,11 +15,20 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+foundation{
+   text-align: center;
+  color: #b1e9c8;
+}
+p{
+   text-align: center;
+  color: #b1e9c8;
+}
 
 #logo {
   width: 100px;
   height: auto;
 }
+
 
 nav ul {
   list-style: none;
@@ -38,7 +47,7 @@ nav ul {
 }
 
 .button-donate {
-  background-color: #e61700;
+  background-color:  #7f1206;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -48,11 +57,11 @@ nav ul {
 }
 
 .button-donate:hover {
-  background-color: #1300e6;
+  background-color: #e61700;
 }
 
 .hero {
-  background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/children-of-uganda-2245270_1280.jpg);
+  background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/kids-6749787_1280.jpg);
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -65,11 +74,17 @@ nav ul {
   text-align: center;
   color: #b1e9c8;
 }
-
+.hero-background {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 80px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 100px auto;
+}
 .view-services-btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color:  #e61700;
+  background-color:  #7f1206;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -78,24 +93,34 @@ nav ul {
 }
 
 .view-services-btn:hover {
-  background-color:  #050505;
+  background-color: #e61700;
 }
 
 .footer {
   background-color: #0a0a0a;
-  color: #e61700;
+  color: #b1e9c8; 
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.social-icons a {
-  margin-right: 10px;
-  text-decoration: none;
+.social-icons{
+  flex: 1;
+  text-align: right;
 }
+
+.social-icons a {
+  margin-left: 10px;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+}
+
 .about-section {
-  background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/children-205219_1280.jpg);
+  background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/nn.jpg);
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -107,44 +132,68 @@ nav ul {
 
 
 .about-content {
-  max-width: 800px;
-  padding: 20px;
+  max-width: 500px;
+  padding: 80px;
   background-color: rgba(0, 0, 0, 0.6); 
   border-radius: 10px;
+  margin: 100px auto;
 }
 
-
 .events-section {
-  background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/uganda-4288793_1280\ \(1\).jpg);
+
+  background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/bb.jpg);
   background-size: cover;
   padding: 50px 0; 
   text-align: center;
   color: #b1e9c8;
 }
+.events-background {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 80px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 100px auto;
+  
+}
+
 
 .event {
+   max-width: 500px;
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 20px;
+  padding: 40px;
+  margin: 40px auto;
   border-radius: 10px;
-  margin-bottom: 20px;
+  
 }
 
 
 .contact-section {
-  background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/nn.jpg);
+  background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/children-205219_1280.jpg);
   background-size: cover;
-  padding: 100px 0;
+  padding: 40px 0;
+  border-radius: 10px; border-radius: 10px; border-radius: 10px; border-radius: 10px;
   text-align: center;
   color: #b1e9c8;
 }
+.contact-background {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 80px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 100px auto;
+  
+}
+
 
 
 .contact-info,
 .contact-form {
+   max-width: 500px;
   background-color: rgba(0, 0, 0, 0.8); 
-  padding: 30px;
+  padding: 40px;
+  margin: 40px auto;
   border-radius: 10px;
-  margin-bottom: 30px;
+  
 }
 
 .contact-info p {
@@ -167,7 +216,7 @@ nav ul {
 }
 
 .contact-form button.button-submit {
-  background-color:  #e61700;
+  background-color:  #7f1206;
   color: #b1e9c8;
   padding: 10px 20px;
   border: none;
